@@ -1,0 +1,10 @@
+package inferencia;
+
+public class Calculo {
+
+	public static void main(String[] args) {
+		// TODO Esbozo de método generado automáticamente
+
+	}
+
+}

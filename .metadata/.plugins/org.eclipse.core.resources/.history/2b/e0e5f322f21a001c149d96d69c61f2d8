@@ -1,0 +1,13 @@
+package inferencia;
+
+public class Calculo {
+
+	public static void main(String[] args) {
+		
+	//El var no se ocupa como una variable global, sino como una local dentro de un metodo
+		var dato = "Hola";
+		
+		System.out.println(dato);
+	}
+
+}

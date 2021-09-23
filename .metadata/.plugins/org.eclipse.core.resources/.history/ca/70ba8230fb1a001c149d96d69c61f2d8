@@ -1,0 +1,88 @@
+package logica;
+
+public class Docente extends Persona {
+
+	private int notaMatematicas;
+	private int notaBiologia;
+	private int notaFisica;
+	private int notaQuimica;
+
+
+
+	public Docente(String nombre, int edad, int notaMatematicas, int notaBiologia, int notaFisica, int notaQuimica) {
+		super(nombre, edad);
+		this.notaMatematicas = notaMatematicas;
+		this.notaBiologia = notaBiologia;
+		this.notaFisica = notaFisica;
+		this.notaQuimica = notaQuimica;
+	}
+
+
+
+	public int getNotaMatematicas() {
+		return this.notaMatematicas;
+	}
+
+
+
+	public void setNotaMatematicas(int notaMatematicas) {
+		this.notaMatematicas = notaMatematicas;
+	}
+
+
+
+	public int getNotaBiologia() {
+		return this.notaBiologia;
+	}
+
+
+
+	public void setNotaBiologia(int notaBiologia) {
+		this.notaBiologia = notaBiologia;
+	}
+
+
+
+	public int getNotaFisica() {
+		return this.notaFisica;
+	}
+
+
+
+	public void setNotaFisica(int notaFisica) {
+		this.notaFisica = notaFisica;
+	}
+
+
+
+	public int getNotaQuimica() {
+		return this.notaQuimica;
+	}
+
+
+
+	public void setNotaQuimica(int notaQuimica) {
+		this.notaQuimica = notaQuimica;
+	}
+
+
+
+	public void imprimir() {
+		
+		System.out.println("Nombre: " + this.getNombre() + "\nEdad: " + this.getEdad()
+		+ "\nNota Matematicas: " + this.getNotaMatematicas()
+		+ "\nNota Biologia: " + this.getNotaBiologia()
+		+ "\nNota Fisica: " + this.getNotaFisica()
+		+ "\nNota Quimica: " + this.getNotaQuimica());
+		+ "\nNota Media Curso: " + calcularNotaMedia()
+	}
+	
+	public int calcularNotaMedia(){
+		
+		 int notaMedia;
+		 
+		 notaMedia = (this.notaMatematicas + this.notaBiologia + this.notaFisica + this.notaQuimica)/4 ;
+		
+		return notaMedia;
+	}
+}

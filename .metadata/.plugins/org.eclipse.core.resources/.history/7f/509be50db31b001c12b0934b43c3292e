@@ -1,0 +1,140 @@
+package logica;
+
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.util.Date;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+
+		Scanner teclado = new Scanner(System.in);
+
+	
+	//Ejercicio 1
+	/*
+	
+		System.out.println("Ejercicio 1");
+
+		int num1;
+		int num2;
+	
+		System.out.println("Dime el primer numero");
+		num1 = Integer.parseInt(teclado.nextLine());
+		
+		System.out.println("Dime el segundo numero");
+		num2 = Integer.parseInt(teclado.nextLine());
+	
+		if(num1 == num2) {
+			System.out.println("Los numeros son iguales");
+		}else {
+			System.out.println("Los numeros son diferentes");
+		}
+	
+	
+	//Ejercicio 2
+	
+		int num3;
+		int num4;
+	
+		System.out.println("Dime el primer numero");
+		num3 = Integer.parseInt(teclado.nextLine());
+		
+		System.out.println("Dime el segundo numero");
+		num4 = Integer.parseInt(teclado.nextLine());
+	
+		if(num3 == num4) {
+			System.out.println("Los numeros son iguales");
+		}else if (num3 > num4){
+			System.out.println("El numero " + num3 + " es mayor que " + num4);
+		}else {
+			System.out.println("El numero " + num4 + " es mayor que " + num3);
+		}
+
+	
+	
+	
+	//Ejercicio 3
+	
+		int num5;
+		int num6;
+		int num7;
+		
+		System.out.println("Dime el primer numero");
+		num5 = Integer.parseInt(teclado.nextLine());
+		
+		System.out.println("Dime el segundo numero");
+		num6 = Integer.parseInt(teclado.nextLine());
+		
+		System.out.println("Dime el tercer numero");
+		num7 = Integer.parseInt(teclado.nextLine());
+	
+		if(num5 >= num6 && num6 >= num7) {
+			System.out.println("Los numeros de mayor a menor son : " + num5 + " - " + num6 + " - " + num7) ;
+		}else if (num5 >= num7 && num7 >= num6){
+			System.out.println("Los numeros de mayor a menor son : " + num5 + " - " + num7 + " - " + num6);
+		}else if (num6 >= num5 && num5 >= num7){
+			System.out.println("Los numeros de mayor a menor son : " + num6 + " - " + num5 + " - " + num7);
+		}else if (num6 >= num7 && num7 >= num5){
+			System.out.println("Los numeros de mayor a menor son : " + num6 + " - " + num7 + " - " + num5);
+		}else if (num7 >= num6 && num6 >= num5){
+			System.out.println("Los numeros de mayor a menor son : " + num7 + " - " + num6 + " - " + num5);
+		}else 
+			System.out.println("Los numeros de mayor a menor son : " + num7 + " - " + num5 + " - " + num6);
+		}
+
+
+	
+	//Ejercicio 4
+		
+		double nota;
+		System.out.println("Dime tu nota (1-7)");
+		nota = Double.parseDouble(teclado.nextLine());
+		
+		if(nota <=3.9 ) {
+			System.out.println("Has sacado un insuficiente");
+		}else if (nota >=3.9 && nota <= 5.9 ){
+			System.out.println("Has sacado un suficiente");
+		}else if (nota > 5.9) {
+			System.out.println("Has sacado un Bien");
+		}
+
+
+	
+	
+		
+		//Ejercicio 5
+		
+			System.out.println("Dime la primera fecha(yyy-MM-dd");
+			String dato1 = teclado.nextLine();
+			System.out.println("Dime la segunda fecha(yyy-MM-dd");
+			String dato2 = teclado.nextLine();
+			
+			// Conversion de string a date
+			SimpleDateFormat date = new SimpleDateFormat("yyyy-MM-dd");
+			Date fecha1 = date.parse(dato1);
+			Date fecha2 = date.parse(dato2);
+	
+			int miliSegundosDia = 86400000;
+			int dias = (int) ((fecha2.getTime()-fecha2.getTime()) / miliSegundosDia);
+				
+				*/
+		
+		//Ejercicio 6
+		int numero =0 ;
+		while(numero >= 0) {
+			System.out.println("Escribe un numero");
+			numero = Integer.parseInt(teclado.nextLine());
+			numero = numero * numero ;
+			
+			System.out.println("Su cuadrado es " + numero);
+		}
+			
+		}
+	}
+	
+	
+
+

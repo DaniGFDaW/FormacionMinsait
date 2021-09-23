@@ -1,0 +1,15 @@
+package Ejercicio1;
+
+public class Usuario extends Cuenta{
+
+	public Usuario() {
+	}
+
+	public Usuario(int numCuenta, String titularCuenta, double saldoCuenta, double interesAnualCuenta) {
+		super(numCuenta, titularCuenta, saldoCuenta, interesAnualCuenta);
+	}
+ 
+	
+	
+	
+}

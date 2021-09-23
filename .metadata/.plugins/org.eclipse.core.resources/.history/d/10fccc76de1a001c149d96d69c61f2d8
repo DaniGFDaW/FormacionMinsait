@@ -1,0 +1,16 @@
+package logica;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Gamer gamer1 = new Gamer("Daniel",21,'M');
+		Gamer gamer2 = new Gamer();
+		Gamer gamer3 = new Gamer();
+
+		String resultado = 
+		
+		
+	}
+
+}

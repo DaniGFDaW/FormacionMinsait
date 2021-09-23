@@ -1,0 +1,9 @@
+INDEX VERSION 1.131+D:\Carpeta de Trabajo\.metadata\.plugins\org.eclipse.jdt.core
+2667493053.index
+1728557082.index
+862609219.index
+1881339816.index
+3460231151.index
+2687891607.index
+1780354946.index
+1666205077.index

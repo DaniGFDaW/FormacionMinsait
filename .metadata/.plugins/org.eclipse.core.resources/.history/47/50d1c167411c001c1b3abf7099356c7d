@@ -1,0 +1,33 @@
+package Ejercicio1;
+
+import java.util.Scanner;
+
+public class Login {
+
+	public static void main(String[] args) {
+		
+		//Creo una administrador
+		Scanner  = new Scanner(System.in);
+		System.out.println("Numero Cuenta");
+		int numCuenta = Integer.parseInt(teclado.nextLine());
+		System.out.println("Titular Cuenta");
+		String  = teclado.nextLine();
+		System.out.println("Saldo Cuenta");
+		int saldoCuenta = Integer.parseInt(teclado.nextLine());
+		System.out.println("In");
+		int interesAnualCuenta = Integer.parseInt(teclado.nextLine());
+		System.out.println("Numero Cuenta");
+		Boolean admin = Boolean.parseBoolean(teclado.nextLine());
+		Administrador admin1 = new Administrador(teclado, titularCuenta, saldoCuenta,interesAnualCuenta,admin);
+		
+		//Muestro los menus
+		if (admin1.isAdmin()) {
+			admin1.menuAministrador();
+		}else {
+			
+		}
+	
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package logica;
+
+public class Estudiante extends Persona {
+
+	private int notas;
+
+
+	public Estudiante(String nombre, int edad, int notas) {
+		super(nombre, edad);
+		this.notas = notas;
+	}
+	
+	
+	
+	
+}

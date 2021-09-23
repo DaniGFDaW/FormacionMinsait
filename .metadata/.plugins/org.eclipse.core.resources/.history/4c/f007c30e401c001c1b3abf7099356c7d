@@ -1,0 +1,8 @@
+package Ejercicio1;
+
+public class Cliente {
+	private int numCuenta;
+	private String titularCuenta;
+	private double saldoCuenta;
+	private double interesAnualCuenta;
+}

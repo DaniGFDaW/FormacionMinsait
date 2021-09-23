@@ -1,0 +1,21 @@
+package Ejercicio1;
+
+public class Usuario{
+
+	public void menuCliente() {
+		
+		String resultado;
+		
+		resultado = "\n----Menu Cliente----"+ "\nDepositar\n"
+				+ "Girar\n"
+				+ "Consulta Saldo\n" 
+				+ "Convertir la moneda de Euro a USD\n"
+				+ "Salir.";
+		
+		System.out.println(resultado);
+	}
+	
+
+
+	
+}

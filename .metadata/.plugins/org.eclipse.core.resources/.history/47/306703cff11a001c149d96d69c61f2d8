@@ -1,0 +1,12 @@
+package inferencia;
+
+public class Calculo {
+
+	public static void main(String[] args) {
+
+		var dato = "Hola";
+		
+		System.out.println(dato);
+	}
+
+}

@@ -1,0 +1,18 @@
+package Ejercicio1;
+
+public class Login {
+
+	public static void main(String[] args) {
+		
+		//Creo una administrador
+		Cliente cliente1 = new Cliente(123231, "Daniel Gallego", 2000,5 );
+		Usuario usuario1 = new Usuario();
+		
+		//Muestro los menus
+		admin1.menuAministrador();
+		usuario1.menuCliente();
+		
+		
+	}
+
+}

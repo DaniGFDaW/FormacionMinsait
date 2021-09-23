@@ -1,0 +1,11 @@
+package logica;
+
+public class Cliente {
+	
+	private String nombre;
+	private int edad;
+	private String id;
+	private float dineroDisponible;
+	
+	
+}

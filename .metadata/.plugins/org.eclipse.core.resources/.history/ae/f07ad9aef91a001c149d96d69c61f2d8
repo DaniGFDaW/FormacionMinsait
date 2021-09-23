@@ -1,0 +1,10 @@
+package logica;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Estudiante estu = new Estudiante("david", 1, 9)
+	}
+
+}

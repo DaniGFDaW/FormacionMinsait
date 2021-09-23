@@ -1,0 +1,15 @@
+package logica;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		String saludo = "Curso de Java";
+		int numero = 2;
+		
+		System.out.println("Hellow world");
+		System.out.println(saludo);
+		System.out.println(numero);
+	}
+
+}

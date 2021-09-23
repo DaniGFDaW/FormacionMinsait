@@ -1,0 +1,13 @@
+package Ejercicio1;
+
+public class Login {
+
+	public static void main(String[] args) {
+		
+		//Creo una cuenta
+		Cuenta cuenta1 = new Cuenta(123231, "Daniel Gallego", 2000,5 )
+		
+		
+	}
+
+}
